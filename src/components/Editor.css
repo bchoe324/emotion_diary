@@ -1,0 +1,93 @@
+.editor {
+  padding: 40px 0;
+}
+
+.editor section {
+  margin-bottom: 60px;
+}
+
+.editor section:last-of-type {
+  margin-bottom: 0;
+}
+.editor section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.editor .date_section input {
+  border: 0 none;
+  background-color: rgb(236, 236, 236);
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.editor .date_section input:focus {
+  outline: 0;
+}
+
+.editor .emotion_section img {
+  cursor: pointer;
+  width: 100px;
+}
+
+.editor .content_section textarea {
+  width: 100%;
+  min-height: 200px;
+  border: 0 none;
+  background-color: rgb(236, 236, 236);
+  border-radius: 6px;
+  padding: 20px;
+  resize: vertical;
+  display: block;
+}
+
+.editor .content_section textarea:focus {
+  outline: 0;
+}
+
+.editor .button_section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editor .modal .text_wrapper {
+  margin-bottom: 40px;
+}
+
+.editor .modal .text_wrapper h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.editor .modal .text_wrapper div {
+  color: #7d7c7c;
+}
+
+.editor .modal .emotion_wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px 10px;
+  margin-bottom: 40px;
+}
+
+.editor .modal .emotion_wrapper > div {
+  flex: 0 0 calc((100% - 30px) / 4);
+  cursor: pointer;
+  position: relative;
+}
+
+.editor .modal .emotion_wrapper img {
+  width: auto;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.editor .modal .button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+}

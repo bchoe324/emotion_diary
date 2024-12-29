@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.header_left {
+  flex: 1 1 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header_center {
+  flex: 1 1 50%;
+  text-align: center;
+}
+
+.header_right {
+  flex: 1 1 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header h2 {
+  font-size: 20px;
+  margin: 0;
+}

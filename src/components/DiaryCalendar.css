@@ -1,0 +1,39 @@
+.days_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.days_wrapper .day_cell {
+  flex: 1 1 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dates_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.dates_wrapper .date_cell {
+  position: relative;
+  flex: 1 1 calc(100% / 7);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dates_wrapper .date_cell .emotion_wrapper {
+  position: absolute;
+  height: 50px;
+  cursor: pointer;
+}
+
+.dates_wrapper .date_cell .emotion_wrapper img {
+  display: block;
+  height: 100%;
+  width: auto;
+}

@@ -1,0 +1,45 @@
+.diary_list {
+  padding-bottom: 150px;
+}
+
+.diary_list .toggle_wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.diary_list .toggle_switch {
+  display: flex;
+  padding: 3.33px;
+  width: 60px;
+  min-height: 30px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.diary_list .toggle_switch::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) 3px 0 6px;
+  background-color: #fff;
+  background-image: url("../assets/list.svg");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  transition: 0.4s ease;
+}
+
+.diary_list .toggle_switch.calendar::before {
+  background-image: url("../assets/calendar.svg");
+  box-shadow: rgba(0, 0, 0, 0.05) -3px 0 6px;
+  transform: translateX(24px);
+}

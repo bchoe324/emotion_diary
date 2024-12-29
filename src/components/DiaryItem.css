@@ -1,0 +1,26 @@
+.diary_item {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.diary_item .image_wrapper {
+  height: 42px;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.diary_item .image_wrapper img {
+  height: 100%;
+}
+.diary_item .info_wrapper {
+  cursor: pointer;
+  flex: 1 1 auto;
+}
+.diary_item .button_wrapper {
+  margin-left: auto;
+  flex: 0 0 auto;
+}
