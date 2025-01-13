@@ -97,7 +97,7 @@ textarea:not([rows]) {
 
 @font-face {
   font-family: "HakgyoansimGeurimilgiTTF-R";
-  src: url("../public/Hakgyoansim-Geurimilgi-TTF-R.woff") format("woff");
+  src: url("/Hakgyoansim-Geurimilgi-TTF-R.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
