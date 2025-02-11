@@ -8,18 +8,21 @@
 }
 
 .header_left {
-  flex: 1 1 25%;
+  flex: 0 0 auto;
+  width: 25%;
   display: flex;
   justify-content: flex-start;
 }
 
 .header_center {
-  flex: 1 1 50%;
+  flex: 0 0 auto;
+  width: 50%;
   text-align: center;
 }
 
 .header_right {
-  flex: 1 1 25%;
+  flex: 0 0 auto;
+  width: 25%;
   display: flex;
   justify-content: flex-end;
 }
